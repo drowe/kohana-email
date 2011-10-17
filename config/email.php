@@ -26,4 +26,16 @@ return array(
 	 * @param   array   smtp: hostname, (username), (password), (port), (encryption)
 	 */
 	'options' => NULL
+	
+	/**
+	 * Google GMail SMTP setup
+	 *
+	 'options' => array(
+	 	'hostname'   => 'smtp.gmail.com',
+	 	'username'   => 'user@gmail.com',
+	 	'password'   => '<password>',
+	 	'port'       => 465, // SSL, 587 for TLS
+	 	'encryption' => 'ssl' // 'tls' for TLS
+	 )
+	 */
 );
